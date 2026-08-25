@@ -1,0 +1,31 @@
+[
+    {
+        "PropertyGroupId":"kinesis.analytics.flink.run.options",
+        "PropertyMap":{
+            "python":"app.py",
+            "jarfile":"lib/pyflink-dependencies.jar"
+        }
+    },
+    {
+        "PropertyGroupId":"Bet_stream_p2",
+        "PropertyMap":{
+            "stream.name":"project_2_bet",
+            "aws.region":"ap-south-1"
+        }
+    },
+    {
+        "PropertyGroupId":"Result_stream_p2",
+        "PropertyMap":{
+            "stream.name":"project_2_result",
+            "aws.region":"ap-south-1"
+        }
+    },
+    {
+        "PropertyGroupId":"Output_stream_p2",
+        "PropertyMap":{
+            "stream.name":"project_2_output",
+            "aws.region":"ap-south-1"
+        }
+    }
+    
+]
